@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <img src="images/profile.jpg" alt="Profile Picture">
+            <p>Hi there! My name is GUIEB, Michael Jhay S. and I'm a BSIT student that loves technology. I'm excited to learn and develop, so I'm going into web dev, cybersecurity, and programming.</p>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project">
+                <img src="images/project1.jpg" alt="Project 1">
+                <h3>Sample 1</h3>
+                <p>The German captured a Sherman Tank from the Allies (1945)</p>
+            </div>
+            <div class="project">
+                <img src="images/project2.jpg" alt="Project 2">
+                <h3>Sample 2</h3>
+                <p>Victory Party at the Ritz by the German Party (1946)</p>
+            </div>
+        </div>
+    </section>
+
+<section id="contact">
+    <div class="container">
+        <h2>Contact Me</h2>
+        <p>If you have any questions or would like to discuss a project, feel free to get in touch with me using the form below.</p>
+        <form action="#" method="post" id="contact-form">
+            <div class="form-group">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Your Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required></textarea>
+            </div>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+</section>
+
+    <footer>
+        <p>&copy; 2024 My Portfolio</p>
+    </footer>
+</body>
+</html>
